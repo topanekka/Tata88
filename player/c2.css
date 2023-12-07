@@ -1,0 +1,93 @@
+
+			body {
+			          margin: 0
+			     }
+			
+			     .jwplayer {
+			          position: absolute !important
+			     }
+			
+			     .jwplayer.jw-flag-aspect-mode {
+			          min-height: 100%;
+			          max-height: 100%
+			     }
+			
+			     .jwplayer {
+			          width: 100% !important;
+			          height: 100% !important
+			     }
+			
+			     .jw-state-idle .jw-svg-icon-play path {
+			          display: none
+			     }
+			
+			     .jw-state-idle .jw-svg-icon-play {
+			          background-image: url(./play.svg);
+			          background-size: contain;
+			          background-repeat: no-repeat
+			     }
+			
+			     .jwplayer .jw-display-icon-container {
+			          padding: 0;
+			          margin: 0 11px
+			     }
+			
+			     .jw-display-icon-next {
+			          visibility: visible !important
+			     }
+			
+			     .jw-svg-icon-next path {
+			          display: none
+			     }
+			
+			     .jw-svg-icon-next {
+			          background-image: url(https://i.imgur.com/hjPt9cu.jpg);
+			          background-size: contain;
+			          background-repeat: repeat
+			     }    
+			
+			     .jwplayer.jw-breakpoint-0 .jw-display .jw-icon,
+			     .jwplayer.jw-breakpoint-1 .jw-display .jw-icon,
+			     .jwplayer.jw-breakpoint-2 .jw-display .jw-icon,
+			     .jwplayer.jw-breakpoint-3 .jw-display .jw-icon,
+			     .jwplayer.jw-breakpoint-4 .jw-display .jw-icon,
+			     .jwplayer.jw-breakpoint-5 .jw-display .jw-icon,
+			     .jwplayer.jw-breakpoint-6 .jw-display .jw-icon,
+			     .jwplayer.jw-breakpoint-7 .jw-display .jw-icon {
+			          width: 90px;
+			          height: 10px;
+			          line-height: 88px
+			     }
+			
+			     .jwplayer.jw-state-idle .jw-display-icon-container {
+			          -webkit-border-radius: 3.094em;
+			          -moz-border-radius: 3.094em;
+			          border-radius: 3.094em;
+			          -webkit-transition: all .5s ease-out;
+			          -moz-transition: all .5s ease-out;
+			          -o-transition: all .5s ease-out;
+			          transition: all .5s ease-out;
+			          background: rgba(50, 152, 218, .5)
+			     }
+			
+			     .jwplayer.jw-state-idle:hover .jw-display-icon-container {
+			          color: #fff;
+			          background: rgba(41, 183, 101, .5);
+			          -webkit-transform: scale(1.4);
+			          transform: scale(1.4)
+			     }
+			
+			     .jwplayer.jw-state-idle .jw-display-icon-container .jw-icon .jw-svg-icon {
+			          height: 88px;
+			          width: 88px;
+			          line-height: 40px;
+			          margin-left: 8px
+			     }
+			
+			     .jw-flag-ads .jw-vpaid-iframe {
+			          display: block;
+			     }
+			
+			     .jw-vpaid-iframe {
+			          display: none;
+			     }
